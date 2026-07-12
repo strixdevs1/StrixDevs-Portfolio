@@ -15,7 +15,7 @@ export default function Contact() {
         <main className="pt-24">
             <HeroSection />
             <ContactForm />
-            <FAQ limit={10} />
+            <FAQ limit={20} />
         </main>
     );
 }

@@ -7,39 +7,39 @@ import Header from "../Header";
 const points = [
     {
         number: "01",
-        title: "JavaScript End-to-End",
-        desc: "One language. One mental model. Our full JS/TS stack means no context switching between teams — your frontend dev understands your backend and vice versa. Faster builds, fewer bugs, cheaper hires.",
-        proof: "Single-language codebase across all layers",
+        title: "Business-Driven Solutions",
+        desc: "We don't just build software—we solve business challenges. Every solution is designed to improve efficiency, automate workflows, and support long-term business growth.",
+        proof: "Technology aligned with business goals",
     },
     {
         number: "02",
-        title: "We Own the Outcome",
-        desc: "We don't disappear after the handoff. We write documentation your team can follow, build with maintainability in mind, and stay available post-launch. We succeed when you succeed.",
-        proof: "30-day post-launch support included",
+        title: "Tailored for Your Business",
+        desc: "Every project is built from the ground up to match your unique processes and objectives. No templates, no unnecessary complexity—just software that fits your business.",
+        proof: "100% custom software development",
     },
     {
         number: "03",
-        title: "No Bloat, No Middlemen",
-        desc: "You talk directly to the engineers building your product — not an account manager passing messages. Decisions get made in hours, not days.",
-        proof: "Direct async communication via Slack or Discord",
+        title: "Transparent Collaboration",
+        desc: "From discovery to deployment, you'll work directly with our team. Regular updates, milestone reviews, and open communication keep every project on track.",
+        proof: "Clear communication throughout the project",
     },
     {
         number: "04",
-        title: "Security & Auth Done Right",
-        desc: "We implement Clerk, NextAuth, JWT, and RBAC properly from day one. No bolted-on auth that breaks at scale. Payment flows go through Stripe and PayPal with webhook handling and idempotency.",
-        proof: "Auth + payments on every production project",
+        title: "Built to Scale Securely",
+        desc: "Our applications are engineered for reliability, security, and future growth, ensuring your software continues to perform as your business expands.",
+        proof: "Scalable and secure architecture",
     },
     {
         number: "05",
-        title: "Designed to Scale",
-        desc: "MongoDB for flexible document models, PostgreSQL for relational integrity, Redis for caching, Firebase for real-time — we pick the right database for the job, not the trending one.",
-        proof: "Multi-DB architecture experience across projects",
+        title: "AI & Automation Expertise",
+        desc: "We help businesses eliminate repetitive work through AI-powered automation, intelligent workflows, custom chatbots, AI agents, and seamless system integrations.",
+        proof: "Smarter workflows with AI",
     },
     {
         number: "06",
-        title: "Shipped. Not Just Built.",
-        desc: "CI/CD, Docker, Vercel, AWS, monitoring, environment configs — launch is part of the scope, not an afterthought. Your product goes live in a state you can maintain.",
-        proof: "Every project delivered with deployment pipeline",
+        title: "Beyond Launch Support",
+        desc: "Launching is only the beginning. Every project includes complimentary post-launch support, and we're available for ongoing improvements, maintenance, and future enhancements.",
+        proof: "30 days complimentary support included",
     },
 ];
 
@@ -74,10 +74,10 @@ export const WhyUs = () => {
             <div className="container mx-auto px-6">
                 <Header
                     tag="05"
-                    label="Why Us"
-                    titleLine1="Precision Over"
-                    titleLine2="Promises"
-                    desc="We don't sell you on slides. Here's exactly what makes working with us different — in plain language."
+                    label="Why Choose Strix Devs"
+                    titleLine1="Technology That"
+                    titleLine2="Moves Business Forward"
+                    desc="We combine modern software engineering, AI automation, and transparent collaboration to build solutions that are secure, scalable, and designed for long-term success."
                 />
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Instagram } from "lucide-react";
+import { Github, Linkedin, Twitter, Instagram, Facebook } from "lucide-react";
 import { Link } from "react-router";
 
 const Footer = () => {
@@ -13,24 +13,58 @@ const Footer = () => {
         },
         {
             icon: Twitter,
-            href: "https://twitter.com/strixdevs",
+            href: "https://x.com/strixdevs",
             label: "Twitter",
         },
-        { icon: Github, href: "https://github.com/strixdevs", label: "GitHub" },
+        {
+            icon: Github,
+            href: "https://github.com/strixdevs1",
+            label: "GitHub",
+        },
+        {
+            icon: Facebook,
+            href: "https://facebook.com/strixdevs.1",
+            label: "Facebook",
+        },
         {
             icon: Instagram,
-            href: "https://instagram.com/strixdevs",
+            href: "https://instagram.com/strix.devs",
             label: "Instagram",
         },
     ];
 
     const footerLinks = {
         Services: [
-            { name: "Web Development", href: "/services/#web-development" },
-            { name: "E-Commerce", href: "/services/#e-commerce" },
-            { name: "UI/UX Design", href: "/services/#ui-ux-design" },
-            { name: "Backend APIs", href: "/services/#backend-apis" },
+            {
+                name: "Custom Web Applications",
+                href: "/services/#custom-web-applications",
+            },
+            {
+                name: "SaaS Development",
+                href: "/services/#saas-development",
+            },
+            {
+                name: "Business Dashboards",
+                href: "/services/#business-dashboards",
+            },
+            {
+                name: "API Development",
+                href: "/services/#api-development",
+            },
+            {
+                name: "AI Automation",
+                href: "/services/#ai-automation",
+            },
+            {
+                name: "Cloud & DevOps",
+                href: "/services/#cloud-devops",
+            },
+            {
+                name: "Maintenance & Support",
+                href: "/services/#maintenance-support",
+            },
         ],
+
         Company: [
             { name: "Home", href: "/" },
             { name: "About Us", href: "/about" },

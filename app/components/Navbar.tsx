@@ -49,7 +49,7 @@ const Navbar = () => {
                             className="flex items-center gap-3"
                         >
                             <img
-                                src="https://i.ibb.co.com/sJM47XhW/icon1.png"
+                                src="/images/icon1.png"
                                 className="w-14"
                                 loading="lazy"
                             />

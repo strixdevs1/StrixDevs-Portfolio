@@ -88,7 +88,7 @@ export default function Home() {
            <ServicesSection />
            <PortfolioSection />
            <Process />
-           <TechStack />
+           {/* <TechStack /> */}
            <WhyUs />
            <AboutSection />
            <FAQ limit={6}/>

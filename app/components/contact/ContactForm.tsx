@@ -42,7 +42,7 @@ const ContactForm = () => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
     return (
-        <section className="py-20 relative">
+        <section className="py-20 relative" id="contact">
             <div className="container mx-auto px-6">
                 <div className="grid lg:grid-cols-2 gap-20">
                     {/* Form */}
