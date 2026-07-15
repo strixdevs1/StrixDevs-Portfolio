@@ -16,10 +16,9 @@ import Footer from "./components/Footer";
 /* ─── Site-wide SEO constants ─────────────────────────────────── */
 const SITE_URL = "https://strixdevs.com";
 const COMPANY = "Strix Devs";
-const TAGLINE = "We Build Scalable Web Applications";
+const TAGLINE = "Modern Web Development & Automation Agency";
 const DESCRIPTION =
-    "Strix Devs is a full-stack software development studio building high-performance web applications, SaaS platforms, and custom business systems using React, Next.js, Node.js and cloud infrastructure. We help startups and companies turn ideas into production-ready products.";
-
+    "Strix Devs helps startups and businesses build scalable web applications, SaaS platforms, AI automation, and custom software using React, Next.js, Node.js, and cloud technologies. Based in Canada, serving clients worldwide.";
 const OG_IMAGE = "https://i.ibb.co.com/Z189FpgK/strixdevs.png";
 const TWITTER = "@strixdevs";
 
