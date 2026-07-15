@@ -37,10 +37,10 @@ export function meta(): Route.MetaDescriptors {
         },
 
         { name: "author", content: COMPANY },
-        { name: "geo.region", content: "BD" },
-        { name: "geo.placename", content: "Dhaka" },
-        { name: "geo.position", content: "23.8103;90.4125" },
-        { name: "ICBM", content: "23.8103, 90.4125" },
+        { name: "geo.region", content: "CA" },
+        { name: "geo.placename", content: "Toronto" },
+        { name: "geo.position", content: "43.6532; -79.3832" },
+        { name: "ICBM", content: "43.6532, -79.3832" },
 
         /* ── Keywords (FIXED) ── */
         {
@@ -119,13 +119,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
                             url: SITE_URL,
                             logo: OG_IMAGE,
                             description: DESCRIPTION,
-                            email: "ajshajimmax@gmail.com",
+                            email: "info@strixdevs.com",
                             foundingDate: "2024",
                             areaServed: "Worldwide",
                             contactPoint: {
                                 "@type": "ContactPoint",
                                 contactType: "sales",
-                                email: "ajshajimmax@gmail.com",
+                                email: "info@strixdevs.com",
                             },
                             sameAs: [
                                 "https://linkedin.com/company/strixdevs",
@@ -147,16 +147,17 @@ export function Layout({ children }: { children: React.ReactNode }) {
                             url: SITE_URL,
                             image: OG_IMAGE,
                             telephone: "+881518933208",
-                            priceRange: "$$",
+                            priceRange: "$$$$",
                             address: {
                                 "@type": "PostalAddress",
-                                addressCountry: "BD",
-                                addressLocality: "Dhaka",
+                                addressLocality: "Toronto",
+                                addressRegion: "Ontario",
+                                addressCountry: "CA",
                             },
                             geo: {
                                 "@type": "GeoCoordinates",
-                                latitude: 23.8103,
-                                longitude: 90.4125,
+                                latitude: 43.6532,
+                                longitude: -79.3832,
                             },
                             serviceType: [
                                 "Web Development",
