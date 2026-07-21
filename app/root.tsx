@@ -161,6 +161,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                             serviceType: [
                                 "Web Development",
                                 "E-Commerce Development",
+                                "AI Automation",
                                 "SaaS Development",
                                 "Custom Web App",
                                 "UI/UX Design",
