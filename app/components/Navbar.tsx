@@ -52,6 +52,7 @@ const Navbar = () => {
                                 src="/images/icon1.png"
                                 className="w-14"
                                 loading="lazy"
+                                alt="Strix Devs Logo"
                             />
                             <span className="text-xl tracking-tight glow-text">
                                 STRIX
@@ -112,6 +113,7 @@ const Navbar = () => {
 
                     {/* Mobile Menu Button */}
                     <button
+                        aria-label="Toggle navigation menu"
                         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                         className="md:hidden p-2 text-foreground hover:text-muted-foreground transition-colors"
                     >
